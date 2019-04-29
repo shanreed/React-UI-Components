@@ -1,1 +1,11 @@
 /* All styles for your header Components live here */
+.top {
+    display: flex;
+  }
+  
+  .header-content-conatiner {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+ 
