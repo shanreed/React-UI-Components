@@ -6,21 +6,19 @@ import ActionButton from './components/ButtonComponents/ActionButton.js'
 
 
 const numbers = [ 
-{name:'7'}, {name:'8'}, {name:'9'}, {name: 'X'},
+{name:'7'}, {name:'8'}, {name:'9'}, {name: 'x'},
 {name:'4'}, {name:'5'}, {name:'6'}, {name: '-'}, 
 {name:'1'}, {name:'2'}, {name:'3'}, {name: '+'}, 
 ]
-
-const bigButtons =[
-  { name: 'clear'},
-{ name: '0'}]
  
 const App = () => {
   return (
     <div className = 'calculator-container'>
       <Display/>
-      <div class = 'top-buttons'>
+      <div className = 'clear'>
         <ActionButton text = 'clear'/>
+        </div>
+        <div className = 'divide'>
         <ActionButton text = '/'/>
       </div>
       <div className = "numbers-box">
@@ -29,8 +27,10 @@ const App = () => {
           <Numbers numbers = {item}/>
         ))}
       </div>
-      <div class = 'top-buttons'>
+      <div class = 'zero'>
         <ActionButton text = '0'/>
+        </div>
+        <div class = 'equal'>
         <ActionButton text = '='/>
       </div>
     </div>
