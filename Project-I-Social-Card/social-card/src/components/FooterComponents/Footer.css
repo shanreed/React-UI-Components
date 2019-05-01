@@ -1,0 +1,17 @@
+.footer {
+    display:flex;
+    margin-right: 270px;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+
+.envelop {
+    
+    font-size: 1.8rem;
+}
+
+.heart {
+    font-size: 1.6rem;
+    
+}

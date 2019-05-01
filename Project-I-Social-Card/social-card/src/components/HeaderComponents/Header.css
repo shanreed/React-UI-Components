@@ -1,1 +1,45 @@
 /* All styles for your header Components live here */
+
+.header-container {
+}
+
+
+.image-container img {
+  height: 28px;
+  width: 30px;
+  padding-left: 29px;
+  margin-top: 08px;
+}
+
+.top {
+    display: flex;
+  }
+
+  .header-title-container h1 {
+    font-weight: bolder;
+    margin-left: 18px;
+    font-size: 1.5rem;
+  }
+
+  .header-title-container h1 span {
+    color: grey;
+    padding-left: 10px;
+    font-size: 1.3rem;
+  
+  }
+
+  .header-content-conatiner {
+    width: 79%;
+    margin-left: 78px;
+    margin-top: -15px;
+    padding-bottom: 20px;
+  }
+
+  .header-content-conatiner p {
+    font-size: 1.5rem;
+    line-height: 19px;
+  }
+  
+  
+  
+ 
